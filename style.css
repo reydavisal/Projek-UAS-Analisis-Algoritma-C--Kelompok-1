@@ -1,0 +1,88 @@
+/* Tema Golden Blue */
+body {
+  background: linear-gradient(135deg, #ffd700, #1a3d7c);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #f0f0f0;
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  max-width: 700px;
+  margin: 0 auto;
+  background-color: rgba(26, 61, 124, 0.85);
+  border-radius: 20px;
+  padding: 20px 30px;
+  box-shadow: 0 0 20px #ffd700aa;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  text-shadow: 1px 1px 5px #333;
+}
+
+.input-group {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  font-size: 18px;
+}
+
+.input-group label {
+  min-width: 190px;
+}
+
+.input-group input {
+  padding: 8px 12px;
+  font-size: 16px;
+  border-radius: 10px;
+  border: 2px solid #ffd700;
+  outline: none;
+  width: 100px;
+  color: #1a3d7c;
+  font-weight: bold;
+}
+
+.input-group input:focus {
+  border-color: #fff;
+  box-shadow: 0 0 5px #ffd700;
+}
+
+button {
+  background-color: #ffd700;
+  color: #1a3d7c;
+  font-size: 18px;
+  font-weight: 700;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  display: block;
+  margin: 0 auto 25px auto;
+  box-shadow: 0 0 10px #fff5b1;
+}
+
+button:hover {
+  background-color: #e6c200;
+}
+
+#items-list {
+  font-size: 16px;
+  margin-bottom: 20px;
+  line-height: 1.5;
+  color: #fffacd;
+  text-shadow: 0 0 3px #1a3d7c;
+}
+
+#output {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 15px;
+  padding: 15px 20px;
+  font-family: monospace;
+  white-space: pre-wrap;
+  color: #ffd700;
+  box-shadow: inset 0 0 10px #ffd700aa;
+}
